@@ -1,3 +1,3 @@
 # designpattern
 工厂模式
-123
+123465
