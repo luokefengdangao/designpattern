@@ -1,4 +1,4 @@
-package com.design.factory.vo;/**
+package com.design.factory.simplefactory.vo;/**
  * Created by hdw on 2018/10/13.
  */
 
@@ -16,7 +16,7 @@ import lombok.extern.log4j.Log4j;
 public class ProductB implements Product {
 
     @Override
-    public void disPlay(String productType) {
+    public void disPlay() {
         log.debug("生产产品B。。。");
 
     }

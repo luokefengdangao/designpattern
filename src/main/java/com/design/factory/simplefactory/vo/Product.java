@@ -1,4 +1,4 @@
-package com.design.factory.vo;/**
+package com.design.factory.simplefactory.vo;/**
  * Created by hdw on 2018/10/13.
  */
 
@@ -12,5 +12,5 @@ package com.design.factory.vo;/**
 
 public interface Product {
 
-    void disPlay(String productType);
+    void disPlay();
 }
