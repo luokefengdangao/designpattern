@@ -13,34 +13,40 @@ import lombok.extern.log4j.Log4j;
  */
 
 @Log4j
-public class HeroBuilder implements ActorBuilder {
+public class HeroBuilder extends ActorBuilder {
     @Override
     public void buildName() {
         log.debug("HeroBuilder buildName ");
+        actor.setName("英雄");
     }
 
     @Override
     public void buildType() {
         log.debug("HeroBuilder buildType ");
+        actor.setType("英雄");
     }
 
     @Override
     public void buildSex() {
         log.debug("HeroBuilder buildSex ");
+        actor.setSex("男");
     }
 
     @Override
     public void buildFace() {
         log.debug("HeroBuilder buildFace ");
+        actor.setFace("国字脸");
     }
 
     @Override
     public void buildCostume() {
         log.debug("HeroBuilder buildCostume ");
+        actor.setCostume("西装");
     }
 
     @Override
     public void buildHairstyle() {
         log.debug("HeroBuilder buildHairstyle ");
+        actor.setHairstyle("平头");
     }
 }

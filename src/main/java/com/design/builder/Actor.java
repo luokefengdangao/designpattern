@@ -2,8 +2,8 @@ package com.design.builder;/**
  * Created by hdw on 2018/10/23.
  */
 
+import lombok.Data;
 import lombok.ToString;
-import lombok.extern.log4j.Log4j;
 
 /**
  * @类型名称：Actor
@@ -13,7 +13,7 @@ import lombok.extern.log4j.Log4j;
  * @Version：1.0
  */
 
-@Log4j
+@Data
 @ToString
 public class Actor {
 
