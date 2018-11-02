@@ -3,17 +3,24 @@ package com.design.builder;
 /**
  * Created by hdw on 2018/10/23.
  */
-public interface ActorBuilder {
+public abstract class ActorBuilder {
 
-    void buildName();
+    protected Actor actor = new Actor();
 
-    void buildType();
+    abstract void buildName();
 
-    void buildSex();
+    abstract void buildType();
 
-    void buildFace();
+    abstract void buildSex();
 
-    void buildCostume();
+    abstract void buildFace();
 
-    void buildHairstyle();
+    abstract void buildCostume();
+
+    abstract void buildHairstyle();
+
+    Actor createActor(){
+        return actor;
+    }
+
 }
